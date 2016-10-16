@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+		xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:TestEntry" 
+		xmlns:localControls="clr-namespace:TestEntry.Controls;assembly=TestEntry"
+		x:Class="TestEntry.TestEntryPage"
+		BackgroundColor="Blue"
+		>
+	<StackLayout
+			Orientation = "Vertical"
+			VerticalOptions="Center"
+			HorizontalOptions="FillAndExpand"
+			Margin="40"
+			>
+			<Label 
+				Text="Welcome to Xamarin Forms!" 
+				TextColor="White"
+				VerticalOptions="Center" 
+				HorizontalOptions="Center" />
+			<localControls:EntryBorder
+					WidthRequest="300"
+				 	VerticalOptions="CenterAndExpand"
+					HorizontalOptions="CenterAndExpand"
+					BackgroundColor="Transparent"
+					/>
+			<localControls:EntryBorder
+					WidthRequest="300"
+				 	VerticalOptions="CenterAndExpand"
+					HorizontalOptions="CenterAndExpand"
+					BackgroundColor="Transparent"
+					/>
+		</StackLayout>
+</ContentPage>
